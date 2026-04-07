@@ -260,7 +260,7 @@ export default function Home() {
               className="min-w-[350px] md:min-w-[450px] bg-gray-50 p-10 rounded-[2.5rem] border border-gray-100"
             >
               <div className="flex items-center gap-4 mb-6">
-                <img src={t.avatar} alt={t.name} className="w-14 h-14 rounded-full" />
+                <img src={t.avatar} alt={t.name} className="w-14 h-14 rounded-full object-cover shrink-0" />
                 <div>
                   <p className="font-bold text-gray-900">{t.name}</p>
                   <p className="text-sm text-blue-600 font-medium">{t.program}</p>

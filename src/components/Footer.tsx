@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Globe, Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
 
-import Logo from './Logo';
 
 export default function Footer() {
   return (
@@ -11,7 +10,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <Link to="/" className="flex items-center gap-3 group">
-              <Logo className="w-12 h-12 text-blue-600" />
+              <img src="/images/LWCLOGO.png" alt="LWC-WT Logo" className="w-12 h-12 object-contain" />
               <span className="font-black text-2xl tracking-tighter text-blue-600">LWC-WT</span>
             </Link>
             <p className="text-gray-500 text-sm leading-relaxed">
