@@ -41,14 +41,14 @@ export const programs: Program[] = [
     id: "au-pair",
     title: "Au Pair programos",
     description: "Gyvenk šeimoje, padėk prižiūrėti vaikus ir pažink vietinę kultūrą iš arti.",
-    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=800",
+    image: "/images/au-pair.jpg",
     link: "/programos/au-pair"
   },
   {
     id: "other-opportunities",
     title: "Kitos galimybės",
     description: "Savanoriavimas, kalbų kursai ir kiti tarptautiniai projektai jaunimui.",
-    image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80&w=800",
+    image: "/images/Twilightviews.jpg",
     link: "/programos"
   }
 ];

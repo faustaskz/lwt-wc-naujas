@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Globe } from 'lucide-react';
 import { cn } from '@/src/lib/utils';
 
-import Logo from './Logo';
 
 const navLinks = [
   { name: 'Pradžia', href: '/' },
@@ -42,7 +41,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3 group">
-          <Logo className="w-12 h-12 text-blue-600 group-hover:scale-110 transition-transform" />
+          <img src="/images/LWCLOGO.png" alt="LWC-WT Logo" className="w-12 h-12 object-contain group-hover:scale-110 transition-transform" />
           <div className="flex flex-col leading-tight">
             <span className="font-black text-2xl tracking-tighter text-blue-600">LWC-WT</span>
             <span className="text-[9px] uppercase tracking-[0.2em] text-gray-400 font-bold">Pasaulio lietuviams</span>

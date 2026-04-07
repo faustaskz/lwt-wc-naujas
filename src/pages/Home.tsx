@@ -79,7 +79,7 @@ export default function Home() {
           >
             <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-white">
               <img
-                src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=1000"
+                src="/images/niujorkas.jpg"
                 alt="New York"
                 className="w-full h-[600px] object-cover"
               />
