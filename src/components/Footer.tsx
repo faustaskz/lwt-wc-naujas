@@ -55,7 +55,7 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-gray-600">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-blue-600 shrink-0" />
-                <span>Gedimino pr. 1, Vilnius, Lietuva</span>
+                <span>Pamėnkalnio g. 19-2, Vilnius</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-blue-600 shrink-0" />

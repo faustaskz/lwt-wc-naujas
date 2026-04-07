@@ -50,8 +50,8 @@ export default function Contacts() {
                   </div>
                   <div>
                     <h4 className="text-lg font-bold text-gray-900 mb-1">Adresas</h4>
-                    <p className="text-gray-500">Gedimino pr. 1, Vilnius</p>
-                    <p className="text-gray-500">Lietuva, LT-01103</p>
+                    <p className="text-gray-500">Pamėnkalnio g. 19-2, Vilnius</p>
+                    <p className="text-gray-500">S. Daukanto g. 11 (2-as aukštas), Kaunas</p>
                   </div>
                 </div>
 
@@ -147,7 +147,7 @@ export default function Contacts() {
             </div>
             <div>
               <p className="font-bold text-gray-900">Mūsų biuras Vilniuje</p>
-              <p className="text-sm text-gray-500">Gedimino pr. 1, Vilnius</p>
+              <p className="text-sm text-gray-500">Pamėnkalnio g. 19-2, Vilnius</p>
             </div>
           </div>
         </div>

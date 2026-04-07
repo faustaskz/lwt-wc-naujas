@@ -58,7 +58,7 @@ export default function Reservation() {
               </div>
               <div>
                 <h4 className="font-bold text-gray-900">Vilniaus biuras</h4>
-                <p className="text-gray-500 text-sm">Gedimino pr. 1, Vilnius</p>
+                <p className="text-gray-500 text-sm">Pamėnkalnio g. 19-2, Vilnius</p>
               </div>
             </div>
             <div className="flex items-start gap-4 p-6 bg-white rounded-3xl border border-gray-100 shadow-sm">
@@ -67,7 +67,7 @@ export default function Reservation() {
               </div>
               <div>
                 <h4 className="font-bold text-gray-900">Kauno biuras</h4>
-                <p className="text-gray-500 text-sm">Laisvės al. 1, Kaunas</p>
+                <p className="text-gray-500 text-sm">S. Daukanto g. 11 (2-as aukštas), Kaunas</p>
               </div>
             </div>
           </div>
